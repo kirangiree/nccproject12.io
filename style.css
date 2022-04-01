@@ -1,0 +1,120 @@
+#nav {
+	margin:0px;
+	padding:0px;
+      font-family:cursive;
+      left: 50px;
+      bottom: 30px;
+     
+}
+#nav li {
+	float:left;
+	width:200px; 
+	height: 40px;
+	display:block;
+	background-color: green;
+	 position:relative;
+	line-height:40px;
+	font-size: 20px;
+	margin-right: 5px;
+	border-radius: 5px;
+}
+#nav li a {
+display:block;
+text-decoration:none;
+color:#FCE77D;
+
+}
+#nav li:hover{background-color:blue;}
+#nav ul{
+	position: absolute;
+	padding: 0;
+	left: 0;
+	display: none;
+}
+#nav li:hover ul ul { display: none; }
+#nav li:hover ul{display: block;}
+#nav li li:hover ul{
+	display: block;
+	margin-left: 200px;
+	margin-top: -35px;
+
+
+}
+#outerbox{
+	position:relative;
+right:50px;
+width:1150px;
+overflow:hidden;
+}
+#sliderbox{
+position:relative;
+width:8100px;
+animation: kiran 10s infinite
+}
+#sliderbox img
+{
+float:left;
+}
+@keyframes kiran{
+0%
+{
+left:0px
+}
+13%
+{
+left:0px
+}
+16%
+{
+left:-1350px
+}
+30%
+{
+left:-1350px
+}
+33%
+{
+left:-2700px
+}
+46%
+{
+left:-2700px
+}
+50%
+{
+left:-4050px
+}
+63%
+{
+left:-4050px
+}
+66%
+{
+left:-5400px
+}
+80%
+{
+left:-5400px
+}
+83%
+{
+left:-6750px
+}
+96%
+{
+left:-6750px
+}
+100%
+{
+left:0px
+}
+
+ }
+.footer {
+	color: red;
+	height: 30px;
+    text-align: center;
+
+}
+}
+
